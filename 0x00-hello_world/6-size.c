@@ -3,7 +3,8 @@
  * main - print the string in the main function
  *
  * Descriptin - using the main function
- * this program prints  prints the size of various types on the computer it is compiled and run on
+ * this program prints  prints the size of various
+ * types on the computer it is compiled and run on
  * Return 0
  */
 
