@@ -1,19 +1,15 @@
 #include <stdio.h>
 
 /**
- *
  * main - Entry point
  *Description main - the string entry point
- *  
- *
- *    * Return: Always 0 (Success)
-    */
+ *return: Always 0 (Success)
+ */
 
 int main(void)
-
 {
-
-		printf("with proper grammar, but the outcome is a piece of art,\n");
+	/*Declaration main function*/
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 
 			return (0);
 
