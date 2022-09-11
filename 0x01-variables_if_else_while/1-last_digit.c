@@ -8,7 +8,7 @@
 * this program prints " if the number is positive or  negative 
 * Return 0;
 */
-int main()
+int main(void)
 {
 int n;
 int l;
