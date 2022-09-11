@@ -12,13 +12,13 @@ int main(void)
 
 {
 
-	int j;
+	int a;
 
-	for (j = 0; j < 10; j++)
+	for (a = 0; a < 10; a++)
 
 	{
 
-			printf("%j", j);
+			printf("%a", a);
 
 	}
 
