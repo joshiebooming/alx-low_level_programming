@@ -2,7 +2,7 @@
 
 /**
  *
- * main -j prints all singles digits
+ * main -i prints all singles digits
  * Description: using the main function
  * this program prints "Program  prints 5 print numbers Return: 0
  *
@@ -12,13 +12,13 @@ int main(void)
 
 {
 
-	int a;
+	int i;
 
-	for (a = 0; a < 10; a++)
+	for (i = 0; i < 10; i++)
 
 	{
 
-			printf("%a", a);
+			printf("%i", i);
 
 	}
 
