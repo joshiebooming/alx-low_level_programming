@@ -28,7 +28,7 @@ int main(void)
 
 	}
 
-	for (sh = 'A' ; sh <= 'Z' ; ch++)
+	for (sh = 'A' ; sh <= 'Z' ; sh++)
 
 	{
 
