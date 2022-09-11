@@ -18,7 +18,7 @@ int main(void)
 
 char z;
 
-for (z = 'a' ; z <= 'z' ; d++)
+for (z = 'a' ; z <= 'z' ; z++)
 
 {
 
