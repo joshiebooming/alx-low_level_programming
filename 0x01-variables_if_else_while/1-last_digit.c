@@ -24,7 +24,7 @@ int main(void)
 
 	int n;
 
-	int l;
+	int k;
 
 
 
@@ -32,23 +32,23 @@ int main(void)
 
 	n = rand() - RAND_MAX / 2;
 
-	l= n % 10;
+	k= n % 10;
 
 
 
-	if (l > 5)
+	if (k > 5)
 
 	{
 
-			printf("Last digit of %d is %d and is greater than 5\n", n, l);
+			printf("Last digit of %d is %d and is greater than 5\n", n, k);
 
 	}
 
-	else if (l == 0)
+	else if (k == 0)
 
 	{
 
-			printf("Last digit of %d is %d and is 0\n", n, l);
+			printf("Last digit of %d is %d and is 0\n", n, k);
 
 	}
 
@@ -56,7 +56,7 @@ int main(void)
 
 	{
 
-			printf("Last digit of %d is %d and is less than 6 and not 0\n", n, l);
+			printf("Last digit of %d is %d and is less than 6 and not 0\n", n, k);
 
 	}
 
