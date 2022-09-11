@@ -2,10 +2,9 @@
 
 /**
  *
- * main - print if the number is postive, zero, or negative
+ * main -j prints all singles digits
  * Description: using the main function
- * this program prints "Programming is positive, zero, or negative
- * Return: 0
+ * this program prints "Program  prints 5 print numbers Return: 0
  *
  */
 
@@ -13,13 +12,13 @@ int main(void)
 
 {
 
-	int i;
+	int j;
 
-	for (i = 0; i < 10; i++)
+	for (j = 0; j < 10; j++)
 
 	{
 
-			printf("%i", i);
+			printf("%j", j);
 
 	}
 

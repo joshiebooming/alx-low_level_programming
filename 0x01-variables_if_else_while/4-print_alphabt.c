@@ -2,13 +2,11 @@
 
 /**
 
- * main - print if the number is postive, zero, or negative
-
- *
+ * main - print all alphabets except e and q
 
  * Description: using the main function
 
- * this program prints "Programming is positive, zero, or negative
+ * this program outputs "abcdfghijklmnoprstuvwxyz"
 
  * Return: 0
 
@@ -18,17 +16,17 @@ int main(void)
 
 {
 
-char d;
+char z;
 
-for (d = 'a' ; d <= 'z' ; d++)
-
-{
-
-if (d != 'e' && d != 'q')
+for (z = 'a' ; z <= 'z' ; d++)
 
 {
 
-	putchar(d);
+if (z != 'e' && z != 'q')
+
+{
+
+	putchar(z);
 
 }
 
