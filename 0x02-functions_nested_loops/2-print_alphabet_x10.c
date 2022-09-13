@@ -1,11 +1,11 @@
 #include "main.h"
 /**
-  * main - print lowercase alphabets 1oX
-  * return always (0);
-  */
-
-void print_alphabet_x10(void) /* from main.h*/
-
+ * main - print lowercase alphabets 1oX
+ *description -for loop 2
+ * return always (0);
+ *for loops
+ */
+void print_alphabet_x10(void)
 {
 	int x;
 	int y;
