@@ -4,10 +4,10 @@
  *print_aplhabet - prints a  to z in lowercase
  *return - no return value
  */
-void print_aplhabet(void)
+void print_alphabet(void)
 {
-int b;
-for (b = 'a'; b <='z'; b++)
+int j;
+for (j = 'a'; j <='z'; j++)
 {
 	_putchar(b);
 }
