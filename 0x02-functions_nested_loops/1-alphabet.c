@@ -2,14 +2,15 @@
 
 /**
  *print_aplhabet - prints a  to z in lowercase
+ *Description - 'prints lowercase a to z'
  *return - no return value
  */
 void print_alphabet(void)
 {
-int j;
-for (j = 'a'; j <='z'; j++)
+int b;
+for (b = 'a'; b <= 'z'; b++)
 {
-	_putchar(j);
+	_putchar(b);
 }
 	_putchar('\n');
 
