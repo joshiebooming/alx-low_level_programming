@@ -5,7 +5,7 @@
  *Description - 'prints lowercase a to z'
  *return - no return value
  */
-void print_alphabet(void)
+void print_alphabet(void) /*description*/
 {
 int b;
 for (b = 'a'; b <= 'z'; b++)

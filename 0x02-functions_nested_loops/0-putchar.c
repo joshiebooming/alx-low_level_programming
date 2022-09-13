@@ -5,7 +5,7 @@
  *Description -'main prints putchar'
  *return always (0);
  */
-int main(void)
+int main(void) /*main prints putchar*/
 {
 	_putchar('_');
 	_putchar('p');
