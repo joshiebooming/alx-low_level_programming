@@ -7,10 +7,10 @@
 void print_aplhabet(void)
 {
 int b;
-for (b = 'a'; b < = 'z'; b++)
+for (b = 'a'; b <='z'; b++)
 {
-	_putchat(j);
+	_putchar(b);
 }
-	_putchat('\n');
+	_putchar('\n');
 
 }
