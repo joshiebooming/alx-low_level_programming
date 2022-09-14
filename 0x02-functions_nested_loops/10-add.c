@@ -8,6 +8,6 @@
 {
 	int added = 0;
 	added = num1 + num2;
-	return add;
+	return added;
 }
 
