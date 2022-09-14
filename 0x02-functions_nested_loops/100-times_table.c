@@ -7,13 +7,15 @@
 void print_times_table(int n)
 {
 	int dgt, prod, result;
+
 	if (n >= 0 && n <= 15)
+
 	{
 		for (dgt = 0; dgt <= n; dgt++)
 		{
 			_putchar('0');
 
-		for (prod = 1; prod <= n; prod ++)
+		for (prod = 1; prod <= n; prod++)
 		{
 			_putchar(',');
 			_putchar(' ');
