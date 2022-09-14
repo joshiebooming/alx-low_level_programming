@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - print lowercase alphabets 1oX
+ *print_alphabet_x10 - print lowercase alphabets 1oX
  *description -for loop 2
- * return always (0);
+ * return: always (0);
  *for loops
  */
 void print_alphabet_x10(void)

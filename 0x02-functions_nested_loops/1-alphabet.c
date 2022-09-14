@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- *print_aplhabet - prints a  to z in lowercase
- *Description - 'prints lowercase a to z'
- *return - no return value
+ *print_alphabet - checks a to z
+ *return: - no return value
  */
-void print_alphabet(void) /*description*/
+void print_alphabet(void)
 {
 int b;
 for (b = 'a'; b <= 'z'; b++)
