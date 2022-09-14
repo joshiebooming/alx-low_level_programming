@@ -20,7 +20,7 @@ for (n = 0; n <= 9; n++)
 			_putchar(' ');
 		else
 			_putchar((prodct / 10) + '0');
-			_putchar((prodct % 10) +'0');
+		_putchar((prodct % 10) +'0');
 		
 	}
 	_putchar('\n');
