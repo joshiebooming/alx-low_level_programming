@@ -2,7 +2,7 @@
 
 /**
 * _puts - main function that puts
-*@str - parameter
+*@str: - parameter
 *Return: 0
 */
 void _puts(char *str)
