@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-*puts_half  - prints string 
+*puts_half  - prints string
 *@str: this is the string to print
 *Return: 0
 */
