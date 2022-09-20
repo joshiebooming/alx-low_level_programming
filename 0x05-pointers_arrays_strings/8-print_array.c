@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
-*print array - prints n elements of array
-*@a: parameter 
+*print_array - prints n elements of array
+*@a: parameter
 *@n: parameter
 *Return: 0
 */
@@ -13,10 +13,10 @@ void print_array(int *a, int n)
 
 	for (inc = 0; inc < n; inc++)
 	{
-		if ( inc != n - 1)
-			printf ("%d, ", a[inc]);
+		if (inc != n - 1)
+			printf("%d, ", a[inc]);
 		else
-			printf ("%d", a[inc]);
+			printf("%d", a[inc]);
 	}
 	putchar(10);
 }
