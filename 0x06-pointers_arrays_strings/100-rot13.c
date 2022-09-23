@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-*rot13 - encodes a string 
-*@s: string 
+*rot13 - encodes a string
+*@s: string
 *Return: address of s
 **/
 
