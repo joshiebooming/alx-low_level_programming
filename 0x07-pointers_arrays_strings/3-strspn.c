@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
 *_strspn -  gets the length of a substring
 *@s: this the string to be checked
@@ -15,7 +14,7 @@ unsigned int _strspn(char *s, char *accept)
 	{
 		for (m = 0; accept[m]; m++)
 		{
-			if (s[l] == accept [m])
+			if (s[l] == accept[m])
 				break;
 		}
 		if (!accept[m])
