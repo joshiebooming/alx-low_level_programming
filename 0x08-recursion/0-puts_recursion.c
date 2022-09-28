@@ -1,7 +1,7 @@
 #include "main.h"
 /*
-*_puts_recursion - checks and prints string folowed by new line
-*@s : string to be called
+*_puts_recursion - checks and prints string
+*@s: string to be called
 *Return : void null
 */
 
