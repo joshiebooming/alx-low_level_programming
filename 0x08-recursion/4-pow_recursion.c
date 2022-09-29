@@ -1,14 +1,14 @@
 #include "main.h"
 /*
-*_pow_recursion - power
-*@x :  number to be used 
+* _pow_recursion - function power
+*@x :  number to be used
 * @y : exponent to be used
 *return x power y
 */
 int _pow_recursion(int x, int y)
 {
 	if (y < 0)
-		return(-1);
+		return (-1);
 	else if (y == 0)
 		return (1);
 	return (x *  _pow_recursion(x, y - 1));
