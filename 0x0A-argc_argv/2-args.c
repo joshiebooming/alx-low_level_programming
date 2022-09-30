@@ -5,7 +5,7 @@
 *main - main function
 *@argc:-count arguements
 *@argv: passes string arguements
-*return - 0
+*Return: - 0
 */
 int main(int argc, char *argv[])
 {
