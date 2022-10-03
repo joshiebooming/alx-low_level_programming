@@ -7,7 +7,7 @@
 *@argv :arguement vector of pointers to string
 *Return :  0 if no errors else 1
 **/
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int a, n = 0, i, t;
 	int c[5] = {25, 10, 5, 2, 1};
@@ -28,7 +28,7 @@ int main (int argc, char *argv[])
 		for (i = 0; i < 5; i++)
 		{
 			t = a / c[i];
-			a -= t *c[i];
+			a -= t * c[i];
 			n += t;
 
 			if (a == 0)
