@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /*
- *main- main function passs arguements
+ * main - main function passs arguements
  *argc : counts arguements
  *argv: the arguements
  * return : 0 otherwise 1
