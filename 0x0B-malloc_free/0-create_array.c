@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
 *create_array - function that creates and array of characters
 *intitalisesit with a special character
@@ -8,7 +9,7 @@
 *pointer to array if everything is normal
 */
 
-char *create_array(unsigned int size, char c);
+char *create_array(unsigned int size, char c)
 {
 	char *array;
 	unsigned int index;
