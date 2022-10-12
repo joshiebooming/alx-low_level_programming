@@ -5,7 +5,7 @@
 *array_range - creates and array of int
 *@min:first int number
 *@max: int number
-return:pointer to allocated memory
+*Return:pointer to allocated memory
 */
 int *array_range(int min, int max)
 {
