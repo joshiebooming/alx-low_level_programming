@@ -8,20 +8,10 @@
 *
 *Return:fix index
 */
-int int_index(int *array, int size, int (*cmp)(int))
+void array_iterator(int *array, size_t size, void (*action)(int))
 {
-	int i,r;
-
-	if(size > 0 && array && cmp)
-	{
-		for(i = 0; i < size; i++)
-		{
-			r =cmp(array[i]);
-			if (r)
-				break;
-		}
-		if (i < size)
-			return (i);
-	}
-	return (-1);
+	unsigned int i;
+	if (array && action)
+		for (i = 0; i < size; i++)
+			action(array[i]);
 }
