@@ -3,7 +3,7 @@
 /**
  *list_len  - finds number of elements in linked lists
  *@h: pointer to start of linked list
- * return: number of elements in likned lists
+ *Return: number of elements in likned lists
  */
 size_t list_len(const list_t *h)
 {

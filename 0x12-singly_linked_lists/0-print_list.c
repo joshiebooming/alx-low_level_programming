@@ -3,7 +3,7 @@
 /**
  *print_list - print all elements of linked list
  *@h : head of lists
- *return: number of nodes
+ *Return: number of nodes
  */
 size_t print_list(const list_t *h)
 {
@@ -17,7 +17,7 @@ size_t print_list(const list_t *h)
 		else
 			printf("[0] (nil)\n");
 		count += 1;
-		cursor = cursor ->next;
+		cursor = cursor->next;
 	}
 	return (count);
 }
