@@ -3,7 +3,7 @@
 
 /**
 *pop_listint - deletes  the head node
-*@head:double pointer to the beginning 
+*@head:double pointer to the beginning
 *Return: the head  nodes data
 */
 int pop_listint(listint_t **head)

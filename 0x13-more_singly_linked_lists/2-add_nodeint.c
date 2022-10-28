@@ -2,8 +2,9 @@
 #include <stdlib.h>
 
 /**
- * add_nodeint - adds a new node 
+ *add_nodeint - adds a new node
  *@head:double pointer to the beginning
+ *@n: paramenter
  *Return: address of new node
  */
 listint_t *add_nodeint(listint_t **head, const int n)
